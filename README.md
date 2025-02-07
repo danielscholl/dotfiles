@@ -32,3 +32,17 @@ brew bundle --file=brewfile.sh
 ```bash
 curl -fsSL https://get.jetify.com/devbox | bash
 ```
+
+## Install g (Go Version Manager)
+
+```bash
+# It is recommended to clear the `GOROOT`, `GOBIN`, and other environment variables before installation.
+$ curl -sSL https://raw.githubusercontent.com/voidint/g/master/install.sh | bash
+$ cat << 'EOF' >> ~/.zshrc
+# Check if the alias 'g' exists before trying to unalias it
+if [[ -n $(alias g 2>/dev/null) ]]; then
+    unalias g
+fi
+EOF 
+$ source "$HOME/.g/env"
+```
