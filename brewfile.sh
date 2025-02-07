@@ -8,6 +8,8 @@ tap 'azure/azd'
 # Install packages
 brew 'mas'
 brew 'tmux'
+brew 'node'
+brew 'neovim'
 brew 'direnv'
 brew 'git'
 brew 'tree'
