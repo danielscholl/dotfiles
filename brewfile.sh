@@ -16,6 +16,7 @@ brew 'zsh-syntax-highlighting'
 brew 'zsh-autosuggestions'
 brew 'azure-cli'
 brew 'azd'
+brew 'yazi'
 
 # Fonts
 cask 'font-jetbrains-mono'
